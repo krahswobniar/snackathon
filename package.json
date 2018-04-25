@@ -1,0 +1,20 @@
+{
+  "name": "snackathon",
+  "version": "1.0.0",
+  "description": "snackathon hackathon mastodon 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krahswobniar/snackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krahswobniar/snackathon/issues"
+  },
+  "homepage": "https://github.com/krahswobniar/snackathon#readme"
+}
