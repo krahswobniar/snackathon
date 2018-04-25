@@ -40,7 +40,7 @@
   <a href="../" rel="author">Mike Bostock</a>
 </header>
     <div style="top:0px; height:50px; width:100%; ">
-        <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="#">HOME</a></div>
+        <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="index.html">HOME</a></div>
         <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="apptType.html">Appointment Type</a></div>
         <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="providers.html">Providers</a></div>
     </div>
@@ -94,7 +94,7 @@ var sankey = d3.sankey()
 
 var path = sankey.link();
 
-d3.json("energy.json", function(energy) {
+d3.json("./Datasets/energy.json", function(energy) {
 
   sankey
       .nodes(energy.nodes)
