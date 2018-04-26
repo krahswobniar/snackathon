@@ -1,0 +1,160 @@
+{
+ "name": "Referral",
+ "children": [
+  {
+   "name": "Doc Shop",
+   "size": 358,
+   "charges": 581931.34
+  },
+  {
+   "name": "Internal Marketing",
+   "children": [
+    {
+     "name": "Mass Emails",
+     "size": 4,
+     "charges": 1290.00
+    },
+    {
+     "name": "Refractive Emails",
+     "size": 1,
+     "charges": 0
+    }
+   ]
+  },
+  {
+   "name": "Radio",
+   "children": [
+    {
+     "name": "Other Radio",
+     "size": 378,
+     "charges": 676287.21
+    },
+    {
+     "name": "WDOC",
+     "size": 273,
+     "charges": 252285.82
+    },
+    {
+     "name": "WJON",
+     "size": 364,
+     "charges": 558049.96
+    }
+   ]
+  },
+  {
+   "name": "Referring Patient",
+   "size": 50,
+   "charges": 74610.00
+  },
+  {
+   "name": "Referring Physician",
+   "size": 125,
+   "charges": 208649.00
+  },
+  {
+   "name": "Social Media",
+   "children": [
+    {
+     "name": "Facebook",
+     "size": 338,
+     "charges": 704893.14
+    },
+    {
+     "name": "Groupon",
+     "size": 385,
+     "charges": 711661.08
+    },
+    {
+     "name": "Other Social Media",
+     "size": 341,
+     "charges": 500698.00
+    },
+    {
+     "name": "Twitter",
+     "size": 329,
+     "charges": 656128.36
+    }
+   ]
+  },
+  {
+   "name": "TV Ads",
+   "children": [
+    {
+     "name": "CBS Late Night",
+     "size": 327,
+     "charges": 695543.70
+    },
+    {
+     "name": "ch44 Daytime",
+     "size": 314,
+     "charges": 596808.92
+    },
+    {
+     "name": "ch44 Late Night",
+     "size": 263,
+     "charges": 399946.02
+    },
+    {
+     "name": "Infomercial",
+     "size": 343,
+     "charges": 420458.94
+    },
+    {
+     "name": "NBC Afternoon",
+     "size": 329,
+     "charges": 575625.00
+    },
+    {
+     "name": "Other TV Ads",
+     "size": 370,
+     "charges": 649750.90
+    }
+   ]
+  },
+  {
+   "name": "TV News",
+   "children": [
+    {
+     "name": "Health Break",
+     "size": 328,
+     "charges": 573649.00
+    },
+    {
+     "name": "News Show",
+     "size": 170,
+     "charges": 349257.80
+    },
+    {
+     "name": "Other TV News",
+     "size": 350,
+     "charges": 447992.44
+    }
+   ]
+  },
+  {
+   "name": "Website",
+   "children": [
+    {
+     "name": "AAO",
+     "size": 7,
+     "charges": 3692.00
+    },
+    {
+     "name": "Other Website",
+     "size": 352,
+     "charges": 531369.00
+    },
+    {
+     "name": "Our Website",
+     "size": 451,
+     "charges": 863487.94
+    },
+    {
+     "name": "ZocDoc",
+     "size": 308,
+     "charges": 516250.68
+    }
+   ]
+  }
+ ]
+}
