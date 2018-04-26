@@ -1,0 +1,2 @@
+@pushd %~dp0
+gource --viewport 1136x640 --highlight-users --title "Select Dev" --logo "NEXTECH_Logo_icon_64.png" --highlight-colour 8AFFE8 --dir-colour DFDFDF  --seconds-per-day 0.05 --file-idle-time 1 -e 0.005 --max-files 100 --user-scale 1.5 git.log
