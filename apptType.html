@@ -157,6 +157,7 @@ aside {
         <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="index.html">HOME</a></div>
         <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="apptType.html">Appointment Type</a></div>
         <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="providers.html">Providers</a></div>
+        <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="types_by_location_dashboard.html">Types by location</a></div>
     </div>
 <h1>Crossfilter</h1>
 
@@ -195,7 +196,7 @@ aside {
 <script>
 
 // (It's CSV, but GitHub Pages only gzip's JSON at the moment.)
-d3.csv("./Datasets/flights-3m.json", function(error, flights) {
+d3.csv("flights-3m.json", function(error, flights) {
 
   // Various formatters.
   var formatNumber = d3.format(",d"),
