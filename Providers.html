@@ -39,36 +39,14 @@
   <aside>May 22, 2012</aside>
   <a href="../" rel="author">Mike Bostock</a>
 </header>
-  <div style="top:0px; height:50px; width:100%; ">
-      <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="index.html">HOME</a></div>
-      <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="apptType.html">Appointment Type</a></div>
-      <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="providers.html">Providers</a></div>
-      <div style="display:inline-block; height:100%; width:120px; text-align: center;"><a href="types_by_location_dashboard.html">Types by location</a></div>
-  </div>
+<div style="top:0px; height:50px; width:100%; ">
+    <a href="index.html"><div style="display:inline-block; height:100%; width:120px; text-align: center; background-color:#16b5c6;">back</div></a>
+</div>
 <h1>Sankey Diagrams</h1>
 
 <p id="chart">
 
 <aside>Drag to rearrange nodes.</aside>
-
-<p class="attribution">Source: <a href="http://www.decc.gov.uk/en/content/cms/tackling/2050/calculator_on/calculator_on.aspx">Department of Energy & Climate Change</a>, <a href="https://tamc.github.io/Sankey/">Tom Counsell</a>.
-
-<aside>Sankey diagrams are closely related to <a href="https://en.wikipedia.org/wiki/Alluvial_diagram">alluvial diagrams</a>, which show how network structure changes over time.</aside>
-
-<p><a href="https://en.wikipedia.org/wiki/Sankey_diagram">Sankey diagrams</a> visualize the magnitude of flow between nodes in a network. This intricate diagram shows a possible scenario for UK energy production and consumption in 2050: energy <b>supplies</b> are on the left, and <b>demands</b> are on the right. Intermediate nodes group related forms of production and show how energy is converted and transmitted before it is consumed (or lost!). The thickness of each link encodes the amount of flow from source to target.
-
-<p>This example is built with <a href="https://d3js.org">D3</a>’s <a href="https://github.com/d3/d3-sankey">Sankey plugin</a>. The plugin takes as input the nodes and weighted links, computing positions via <a href="https://en.wikipedia.org/wiki/Gauss–Seidel_method">iterative relaxation</a>. After fixing the horizontal position of each node, the algorithm starts from the sources on the left, positioning downstream nodes so as to minimize link distance. A reverse pass is then made from right-to-left, and then the entire process is repeated several times. Overlapping nodes are shifted to avoid collision.
-
-<aside>The d3.sankey API is similar to D3’s <a href="https://bl.ocks.org/mbostock/4062045">force-directed graph</a> layout, which is another type of network visualization.</aside>
-
-<p>The fully automatic layout is convenient for rapid visualization—positioning nodes manually is tedious! However, the algorithm is not perfect; links are drawn with partial transparency to highlight crossings. To improve readability and further disambiguate links, this example also lets you reposition nodes interactively. The algorithm could be improved in the future, say to minimize link crossing or to support loopback in cyclical networks.
-
-<p>Many thanks to Tom Counsell, whose <a href="https://tamc.github.io/Sankey/">Sankey library</a> provided inspiration for this example.
-
-<footer>
-  <aside>May 22, 2012</aside>
-  <a href="../" rel="author">Mike Bostock</a>
-</footer>
 
 <script src="//d3js.org/d3.v2.min.js" charset="utf-8"></script>
 <script src="sankey.js"></script>
